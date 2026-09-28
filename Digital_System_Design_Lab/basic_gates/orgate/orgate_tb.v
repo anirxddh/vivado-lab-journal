@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
-module or_gate_tb;
+module orgate_tb;
 
 reg a;
 reg b;
 wire y;
 
-or_gate uut(
+orgate uut(
 .a(a),
 .b(b),
 .y(y)
